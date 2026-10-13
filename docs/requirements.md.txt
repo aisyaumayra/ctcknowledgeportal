@@ -1,0 +1,153 @@
+# Internal Knowledge Sharing Portal
+
+## Purpose
+
+Develop an internal portal accessible by employees across the
+organization for discovering, sharing and reusing organizational
+knowledge.
+
+The portal will centralize:
+
+- Approved templates
+- SOPs
+- Guides
+- Best practices
+- Project references
+- Lessons learned
+- Reusable documents
+
+SharePoint will act as the primary document repository.
+
+The web portal will provide a user-friendly interface for accessing
+and discovering this information.
+
+
+## Core Modules
+
+### 1. Home
+
+The homepage should provide:
+
+- Global search
+- Quick access to major modules
+- Recently added resources
+- Popular resources
+
+
+### 2. Knowledge Hub
+
+Contains:
+
+- SOPs
+- Guides
+- Best practices
+- How-to documents
+- Lessons learned
+- Technical references
+
+
+### 3. Template Hub
+
+Contains approved reusable templates.
+
+Templates should contain metadata including:
+
+- Template name
+- Description
+- Department
+- Category
+- File type
+- Version
+- Owner
+- Last updated date
+- Status
+
+
+### 4. Project Hub
+
+Allows employees to discover reusable knowledge from
+previous projects.
+
+Project information may include:
+
+- Project name
+- Customer
+- Description
+- Technologies
+- Project owner
+- Project status
+- Lessons learned
+- Relevant reusable documents
+
+Access must respect project permissions.
+
+
+## User Roles
+
+### Employee
+
+Can:
+
+- Search
+- Browse knowledge
+- View permitted resources
+- Download/use permitted templates
+
+
+### Content Owner
+
+Can:
+
+- Create knowledge entries
+- Update owned content
+- Submit templates
+
+
+### Template Administrator
+
+Can:
+
+- Publish templates
+- Update templates
+- Archive templates
+
+
+### Portal Administrator
+
+Can:
+
+- Manage categories
+- Manage portal configuration
+- Manage content
+- Manage permissions
+
+
+## Security
+
+The portal is intended for internal organizational use.
+
+The portal must NOT assume that all employees can access
+all documents.
+
+Document access should respect organizational permissions.
+
+
+## Future Features
+
+These should NOT be implemented in the initial MVP:
+
+### Document Generator
+
+User selects template
+→ uploads data
+→ system extracts information
+→ user reviews extracted fields
+→ system generates standardized document.
+
+
+### AI Knowledge Assistant
+
+User asks a question
+→ system searches permitted organizational knowledge
+→ AI produces an answer
+→ sources are displayed.
